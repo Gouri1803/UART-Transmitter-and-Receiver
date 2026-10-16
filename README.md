@@ -13,14 +13,15 @@ A simple UART (8N1) transmitter and receiver written in Verilog, verified with a
 ```
 uart-verilog/
 ├── src/
-│   ├── uart_tx.v      # transmitter
-│   └── uart_rx.v      # receiver
-├── tb/
-│   └── tb_uart.v      # self-checking loopback testbench
-├── docs/
-│   ├── waveform.png           # TX/RX simulation waveform
-│   └── waveform_internal.png  # internal FSM signals
-├── .gitignore
+│   ├── uart_tx.v      
+│   └── uart_rx.v     
+├── testbench/
+│   └── tb_uart.v     
+├── waveform docs/
+|   ├── tb_uart.png
+│   ├── uart_rx.png           
+│   └── uart_tx.pn 
+|
 └── README.md
 ```
 
